@@ -1,0 +1,71 @@
+.app-container{
+  display: flex;
+}
+.app-content{
+  width: 100%;
+}
+.posts{
+  display: flex;
+  flex-wrap: wrap;
+}
+.sidebar{
+  min-height: 100vh; /* Make sidebar extend as per content */
+  width: 200px; 
+}
+.post-card{
+  margin:2vh;
+
+}
+.tags{
+  margin:0 3px ;
+}
+.delete{
+  height: 24px; /* Adjust the height as needed */
+  width: 24px;  /* Adjust the width as needed */
+  margin: 8px;  /* Adjust the margin as needed */
+  cursor: pointer;
+}
+.like{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1vh;
+  width: 2vw; /* Set the desired width for the button */
+  height: 5vh; /* Set the desired height for the button */
+  border: none; /* Remove any border */
+  background: transparent; /* Ensure background is transparent */
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 1vh;
+}
+
+.icon-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.full-icon {
+  width: 50px; /* Adjust to fit the icon */
+  height: 50px; /* Adjust to fit the icon */
+}
+
+.icon-badge {
+  position: absolute;
+  top: 5%; /* Adjust to position th badge vertically */
+  right: 5%; /* Adjust to position the badge horizontally */
+  background-color: #dc3545; /* Red background color for the badge */
+  color: #fff; /* White text color */
+  border-radius: 50%; /* Round shape for the badge */
+  padding: 0.2em 0.5em; /* Padding inside the badge */
+  font-size: 0.7em; /* Adjust text size as needed */
+  display: flex; /* Center the badge text */
+  align-items: center; /* Center the text vertically */
+  justify-content: center; /* Center the text horizontally */
+}
+.create-post{
+  width: 80%;
+  margin:10%;
+}
